@@ -14,6 +14,8 @@
         android:layout_height="wrap_content"
         app:layout_constraintTop_toTopOf="parent"
         android:elevation="20dp"
+        android:paddingTop="28dp"
+        android:paddingHorizontal="12dp"
         android:background="@drawable/top_bg">
 
         <TextView
@@ -57,5 +59,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:menu="@menu/bottom_nav_menu"/>
+        app:menu="@menu/bottom_nav_menu"
+        android:background="#E3F2FD"
+        app:itemTextColor="#1E88E5"
+        app:itemIconTint="#1E88E5"
+        app:itemRippleColor="#90CAF9"
+        app:itemActiveIndicatorStyle="@style/App.Custom.Indicator"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
